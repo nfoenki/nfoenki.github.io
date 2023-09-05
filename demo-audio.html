@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <title>Conférence</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
+    <style>
+      summary {
+        border: 4px solid transparent;
+        outline: none;
+        padding: 1rem;
+        display: block;
+        background: #444;
+        color: white;
+        padding-left: 2.2rem;
+        position: relative;
+        cursor: pointer;
+      }
+      summary:focus {
+        border-color: black;
+      }
+
+      details {
+        box-sizing: border-box;
+        margin-top: 5px;
+        background: white;
+      }
+
+      details summary::-webkit-details-marker {
+        display: none;
+      }
+
+      details[open] > summary:before {
+        transform: rotate(90deg);
+      }
+
+      summary:before {
+        content: "";
+        border-width: 0.4rem;
+        border-style: solid;
+        border-color: transparent transparent transparent #fff;
+        position: absolute;
+        top: 1.3rem;
+        left: 1rem;
+        transform: rotate(0);
+        transform-origin: 0.2rem 50%;
+        transition: 0.25s transform ease;
+      }
+
+      .content {
+        border-top: none;
+        padding: 10px;
+        border: 2px solid #888;
+        border-top: none;
+      }
+
+      p {
+        margin: 0;
+        padding-bottom: 10px;
+      }
+      p:last-child {
+        padding: 0;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      body {
+        font-family: "Open Sans", sans-serif;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container py-3">
+      <header>
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+          <h1 class="display-4 fw-normal">Le printemps agile</h1>
+        </div>
+      </header>
+      <main>
+        <h2>Écouter la conférence</h2>
+          <audio controls>
+            <source src="https://www.canal-u.tv/media/86129/ressource/podcast" type="audio/mpeg">
+          </audio>
+          <p></p>
+          <details>
+            <summary>Version texte</summary>
+            <div class="content">
+              <p>
+                Le 10ᵉ Printemps Agile est un événement marquant célébrant une décennie d'agilité organisé par le Club Agile de Normandie. Cet événement, qui a débuté en 2013, a connu des changements de saison en raison de la crise, mais revient au printemps en mai. La mascotte de l'événement, Lynette, la petite vache, est déguisée en jardinière pour souligner le thème de cette année : semer l'agilité pour booster votre organisation.
+              </p>
+              <p>
+                Le Club Agile de Normandie organise des rencontres ouvertes à tous, sans obligation d'être membre du club. Les rencontres ont lieu à Caen, Rouen, en solo et à Cherbourg. Le club dispose également de meetups en ligne. Les événements sont annoncés sur HelloAsso, où les personnes intéressées peuvent s'inscrire et adhérer au club pour un coût modique de 10 €.
+              </p>
+              <p>
+                Le Printemps Agile est un événement gratuit qui vise à diffuser l'agilité et rendre l'événement accessible à tous, quel que soit leur budget. Le Club Agile a connu une augmentation du nombre d'inscriptions cette année, atteignant 339 participants. Bien que les inscriptions aient diminué en raison du Covid-19, les organisateurs espèrent continuer à voir une croissance dans les années à venir.
+              </p>
+              <p>
+                Le patrimoine de vidéos des éditions précédentes du Printemps Agile est accessible sur Canal U, qui héberge près de 80 vidéos de conférences et d'ateliers sur des sujets tels que le Lean startup, le design thinking et la gestion de projets. Ces vidéos constituent un matériel pédagogique utile pour les enseignants et les apprenants. Le club est également présent sur les réseaux sociaux comme Facebook et Twitter.
+              </p>
+              <p>
+                Les partenaires du Club Agile, tels que la région Normandie, le Gallet, Liam de Caen, et d'autres, jouent un rôle crucial dans l'organisation et le soutien de l'événement. Leur aide permet au club d'offrir cet événement gratuitement et de diffuser l'agilité dans la région. Le programme de cette année comprend huit sessions en parallèle et quatre créneaux horaires pour les ateliers et les conférences.
+              </p>
+            </div>
+          </details>
+      </main>
+    </div>
+  
+  </body>
+</html>
+
